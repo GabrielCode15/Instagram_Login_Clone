@@ -1,0 +1,677 @@
+@charset "UTF-8";
+
+html, body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width:420px){
+
+    .mainContainer{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+
+    .loginContainer{
+        text-align: center;
+    }
+    
+
+
+
+    .logoContainer img{
+        width: 170px;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+
+
+
+    .bannerContainer{
+        display: none;
+    }
+
+
+    
+    .obterApp h5{
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 3vh;
+    }
+    
+    .obterApp img#googlePlay{
+        width: 130px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    
+    .obterApp img#microsoftImg{
+        width: 115px;
+        height: 40px;
+    }
+
+
+    .formBox form input{
+        display: block;
+        margin: auto;
+        margin-top: 1vh;
+        padding: 12px;
+        width: 260px;
+        font-size: 11.5px;
+        border: 1px solid lightgrey;
+        background-color: rgba(211, 211, 211, 0.093);
+    }
+    
+    form button{
+        width: 260px;
+        border-radius: 6px;
+        border: none;
+        padding: 8px;
+        font-weight: bold;
+        margin-top: 2.4vh;
+        background-color: rgb(94, 174, 255);
+        color: white;
+    }
+
+    .lineSeparator{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 4vh;
+        text-align: center;
+        position: relative;
+    }
+
+
+    .lineSeparator .line{
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid rgb(173, 173, 173);
+        background-color: grey;
+        position: relative;
+    }
+    
+    .lineSeparator span{
+        color: grey;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-family: arial;
+        background-color: white;
+    }
+
+
+
+    .facebookEntrie{
+        text-align: center;
+        margin-top: 5vh;
+    }
+    
+    
+    
+    .facebookEntrie a{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vh;
+    }
+    
+    
+    .facebookEntrie a:nth-child(1){
+        color: rgba(15, 32, 35, 0.746);
+        font-weight: bold;
+        font-size: 12.5px;
+    }
+    
+    .facebookEntrie a:nth-child(2){
+        color: grey;
+        font-size: 12px;
+        margin-top: 4vh;
+    }
+    
+    .facebookEntrie a img{
+        width: 16px;
+        margin-right: 8px;
+    }
+    
+    
+    .text{
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: grey;
+        width: 84%;
+    }
+
+
+    .text a{
+        color: rgb(53, 86, 148);
+    }
+    
+    
+    
+    .linkCriarConta{
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13.2px;
+        margin-top: 6vh;
+        margin-bottom: 4vh;
+    }
+
+
+    .linkCriarConta p a{
+        color: rgba(19, 139, 214, 0.887);
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+
+
+     /* Footer(Rodapé) */
+     .footer{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 6vh;
+    }
+    
+    
+    .footer nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        list-style-position: inside;
+        font-size: 12px;
+    
+    }
+    
+    
+    nav ul li{
+        margin: 6px;
+    }
+    
+    
+    nav ul li a{
+        color: grey;
+    }
+    
+    
+    .footer p{
+        margin-top: 1vh;
+        font-size: 12px;
+        color: grey;
+    }
+    
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 421px) and (max-width:849px) {
+    
+
+    .mainContainer{
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .loginContainer{
+        text-align: center;
+    }
+
+    .bannerContainer{
+        display: none;
+    }
+
+
+
+
+    .logoContainer img{
+        width: 180px;
+        padding-top: 1vh;
+    }
+    
+    
+    .formContainer{
+        border: 1px solid rgba(128, 128, 128, 0.613);
+        height: 450px;
+        padding: 30px;
+        position: relative;
+    }
+    
+    
+    
+    form{
+        margin-top:3vh;
+    }
+    
+    
+    .formBox form input{
+        display: block;
+        margin: auto;
+        margin-top: 0.5vh;
+        padding: 12px;
+        width: 260px;
+        font-size: 11.5px;
+        border: 1px solid lightgrey;
+        background-color: rgba(211, 211, 211, 0.093);
+    }
+    
+    form button{
+        width: 260px;
+        border-radius: 6px;
+        border: none;
+        padding: 8px;
+        font-weight: bold;
+        margin-top: 0.8vh;
+        background-color: rgb(94, 174, 255);
+        color: white;
+    }
+    
+    
+    .lineSeparator{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2vh;
+        text-align: center;
+        position: relative;
+    }
+    
+    
+     .lineSeparator .line{
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid rgb(173, 173, 173);
+        background-color: grey;
+        position: relative;
+    }
+    
+    .lineSeparator span{
+        color: grey;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-family: arial;
+        background-color: white;
+    }
+    
+    
+    
+    .facebookEntrie{
+        text-align: center;
+        margin-top: 2vh;
+    }
+    
+    
+    
+    .facebookEntrie a{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5vh;
+    }
+    
+    
+    .facebookEntrie a:nth-child(1){
+        color: rgba(15, 32, 35, 0.746);
+        font-weight: bold;
+        font-size: 12.5px;
+    }
+    
+    .facebookEntrie a:nth-child(2){
+        color: grey;
+        font-size: 12px;
+        margin-top: 2vh;
+    }
+    
+    .facebookEntrie a img{
+        width: 16px;
+        margin-right: 8px;
+    }
+    
+    
+    .text{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 11px;
+        margin-bottom: 2vh;
+        color: grey;
+        width: 84%;
+    }
+
+
+    .text a{
+        color: rgb(53, 86, 148);
+    }
+    
+    
+    
+    .linkCriarConta{
+        border: 1px solid rgba(128, 128, 128, 0.57);
+        margin-top: 1vh;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13.5px;
+    }
+
+
+    .linkCriarConta p a{
+        color: rgba(19, 139, 214, 0.887);
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    
+    .obterApp{
+        margin-top: 2vh;
+    }
+    
+    .obterApp h5{
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 1vh;
+    }
+    
+    .obterApp img#googlePlay{
+        width: 130px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    
+    .obterApp img#microsoftImg{
+        width: 115px;
+        height: 40px;
+    }
+
+    /* Footer(Rodapé) */
+    .footer{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    
+    .footer nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        list-style-position: inside;
+        font-size: 12px;
+    
+    }
+    
+    
+    nav ul li{
+        margin: 6px;
+    }
+    
+    
+    nav ul li a{
+        color: grey;
+    }
+    
+    
+    .footer p{
+        margin-top: 1vh;
+        font-size: 12px;
+        color: grey;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:850px){
+    .mainContainer{
+        display: flex;
+        height: 90%;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    
+    .loginContainer{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .logoContainer img{
+        width: 180px;
+        padding-top: 1vh;
+    }
+    
+    
+    .formContainer{
+        border: 1px solid rgba(128, 128, 128, 0.613);
+        height: 450px;
+        padding: 40px;
+        position: relative;
+    }
+    
+    
+    
+    form{
+        margin-top:3vh;
+    }
+    
+    
+    .formBox form input{
+        display: block;
+        margin: auto;
+        margin-top: 0.5vh;
+        padding: 10px;
+        width: 260px;
+        font-size: 10px;
+        border: 1px solid lightgrey;
+    }
+    
+    form button{
+        width: 260px;
+        border-radius: 6px;
+        border: none;
+        padding: 6px;
+        font-weight: bold;
+        margin-top: 0.8vh;
+        background-color: rgb(73, 164, 255);
+        color: white;
+    }
+    
+    
+    .lineSeparator{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2vh;
+        text-align: center;
+        position: relative;
+    }
+    
+    
+     .lineSeparator .line{
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid rgb(173, 173, 173);
+        background-color: grey;
+        position: relative;
+    }
+    
+    .lineSeparator span{
+        color: grey;
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-family: arial;
+        background-color: white;
+    }
+    
+    
+    
+    .facebookEntrie{
+        text-align: center;
+        margin-top: 2vh;
+    }
+    
+    
+    
+    .facebookEntrie a{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5vh;
+    }
+    
+    
+    .facebookEntrie a:nth-child(1){
+        color: rgba(15, 32, 35, 0.746);
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .facebookEntrie a:nth-child(2){
+        color: grey;
+        font-size: 12px;
+        margin-top: 2vh;
+    }
+    
+    .facebookEntrie a img{
+        width: 16px;
+        margin-right: 8px;
+    }
+    
+    
+    .text{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 11px;
+        margin-bottom: 2vh;
+        color: grey;
+        width: 84%;
+    }
+    
+    .text a{
+        color: rgb(53, 86, 148);
+    }
+    
+    
+    
+    .linkCriarConta{
+        border: 1px solid rgba(128, 128, 128, 0.57);
+        margin-top: 1vh;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .obterApp{
+        margin-top: 2vh;
+    }
+    
+    .obterApp h5{
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 1vh;
+    }
+    
+    .obterApp img#googlePlay{
+        width: 120px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    
+    .obterApp img#microsoftImg{
+        width: 120px;
+        height: 40px;
+    }
+    
+    
+    
+    /* Footer(Rodapé) */
+    .footer{
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .footer nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        list-style-position: inside;
+        font-size: 12px;
+    
+    }
+    
+    
+    nav ul li{
+        margin: 6px;
+    }
+    
+    
+    nav ul li a{
+        color: grey;
+    }
+    
+    
+    .footer p{
+        margin-top: 1vh;
+        font-size: 12px;
+        color: grey;
+    }
+}
